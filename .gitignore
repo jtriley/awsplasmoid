@@ -1,6 +1,7 @@
 *.pyc
+*.zip
 *.swp
 *.pkl
-StarCluster.egg-info
+awsplasmoid.egg-info
 build
 dist
