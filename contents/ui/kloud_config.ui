@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kloud</class>
+ <widget class="QWidget" name="Kloud">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>379</width>
+    <height>279</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Kloud - AWS Plasmoid</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <widget class="QCheckBox" name="showSecondHandCheckBox">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>370</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Show the seconds</string>
+       </property>
+       <property name="whatsThis">
+        <string>Check this if you want to show the seconds.</string>
+       </property>
+       <property name="text">
+        <string>Show Instances</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="showSecondHandCheckBox_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>370</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Show the seconds</string>
+       </property>
+       <property name="whatsThis">
+        <string>Check this if you want to show the seconds.</string>
+       </property>
+       <property name="text">
+        <string>Show Images</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="showSecondHandCheckBox_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>370</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Show the seconds</string>
+       </property>
+       <property name="whatsThis">
+        <string>Check this if you want to show the seconds.</string>
+       </property>
+       <property name="text">
+        <string>Show EBS Volumes</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="showSecondHandCheckBox_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>370</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Show the seconds</string>
+       </property>
+       <property name="whatsThis">
+        <string>Check this if you want to show the seconds.</string>
+       </property>
+       <property name="text">
+        <string>Show Elastic IPs</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="showSecondHandCheckBox_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>370</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Show the seconds</string>
+       </property>
+       <property name="whatsThis">
+        <string>Check this if you want to show the seconds.</string>
+       </property>
+       <property name="text">
+        <string>Show availability zones</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
